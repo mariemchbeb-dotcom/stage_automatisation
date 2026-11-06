@@ -1,0 +1,36 @@
+const Product_Objects = {
+    computersLink: '.top-menu a[href="/computers"]',
+    desktopsLink: 'a[title="Show products in category Desktops"]',
+    productTitle: '.product-title a[href="/build-your-own-computer"]',
+
+    processordropdown: 'select[id="product_attribute_16_5_4"]',
+    value1: '13',
+    value2: '14',
+
+    ramdropdown: 'select[id="product_attribute_16_6_5"]',
+    valueRam1: '15',
+    valueRam2: '16',
+    valueRam3: '17',
+
+    HddButton1: 'input[id="product_attribute_16_3_6_18"]',
+    HddButton2: 'input[id="product_attribute_16_3_6_19"]',
+    osButton1: 'input[id="product_attribute_16_4_7_44"]',
+    osButton2: 'input[id="product_attribute_16_4_7_20"]',
+    osButton3: 'input[id="product_attribute_16_4_7_21"]',
+    softwareButton1: 'input[id="product_attribute_16_8_8_22"]',
+    softwareButton2: 'input[id="product_attribute_16_8_8_23"]',
+    softwareButton3: 'input[id="product_attribute_16_8_8_24"]',
+    btnAddToCart: 'input[id="add-to-cart-button-16"]',
+    quantityInput: 'input[id="addtocart_16_EnteredQuantity"]',
+    shoppingCartLink: 'li#topcartlink',
+    quantityCart: '.qty-input',
+    cartItem: 'a.product-name[href="/build-your-own-computer"]',
+    removeButton: 'input[name="removefromcart"]',
+    updateCartButton: 'input[name="updatecart"]',
+};
+
+
+
+
+
+export default Product_Objects

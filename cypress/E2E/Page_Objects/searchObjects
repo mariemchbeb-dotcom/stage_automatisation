@@ -1,0 +1,15 @@
+const Search_Objects = {
+    searchBox: 'input[id="small-searchterms"]',
+    searchButton: '.search-box-button',
+    searchResults: '.product-title a'
+
+
+
+
+};
+
+
+
+
+
+export default Search_Objects
